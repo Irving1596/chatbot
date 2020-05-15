@@ -28,9 +28,27 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "node_modules/@fortawesome/fontawesome-free-webfonts/css/fontawesome.css",
+              "node_modules/@fortawesome/fontawesome-free-webfonts/css/fa-regular.css",
+              "node_modules/@fortawesome/fontawesome-free-webfonts/css/fa-brands.css",
+              "node_modules/@fortawesome/fontawesome-free-webfonts/css/fa-solid.css",
+              "node_modules/animate.css/animate.css"
             ],
-            "scripts": []
+
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                  "src/styles"
+              ]
+            },
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/chart.js/dist/Chart.js",
+              "node_modules/hammerjs/hammer.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +141,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "chatbot"
+    }
+  },
+  "defaultProject": "chatbot",
+  "cli": {
+    "analytics": "d4e47985-6453-4161-ad82-88cfbacb2d2f"
+  }
 }
