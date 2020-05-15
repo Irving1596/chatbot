@@ -1,13 +1,17 @@
 import { Routes, RouterModule } from '@angular/router';
-import {ChatbotComponent} from './pages/chatbot/chatbot.component';
-import { PreviewComponent } from './pages/preview/preview.component';
+import { ChatbotComponent } from './chatbot/chatbot.component';
+import { PreviewComponent } from './preview/preview.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-    { path: 'chatbot', component: ChatbotComponent },
-    {path: '' ,redirectTo: '/chatbot' , pathMatch: 'full' },
-    { path: 'preview', component: PreviewComponent }
-    //{path: '**', component: ChatbotComponent },
-  
-  ];
+  { path: 'home', component: HomeComponent },
+  { path: 'chatbot', component: ChatbotComponent },
+  { path: 'preview', component: PreviewComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full', component: HomeComponent },
+  { path: '**', component: HomeComponent },
 
-  export const APP_ROUTES = RouterModule.forRoot( routes, { useHash: true } );
+];
+
+export const APP_ROUTES = RouterModule.forRoot(routes
+  // , { useHash: true }
+);
