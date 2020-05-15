@@ -28,26 +28,6 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
-              "src/styles.scss",
-              "node_modules/bootstrap/scss/bootstrap.scss",
-              "node_modules/@fortawesome/fontawesome-free-webfonts/css/fontawesome.css",
-              "node_modules/@fortawesome/fontawesome-free-webfonts/css/fa-regular.css",
-              "node_modules/@fortawesome/fontawesome-free-webfonts/css/fa-brands.css",
-              "node_modules/@fortawesome/fontawesome-free-webfonts/css/fa-solid.css",
-              "node_modules/animate.css/animate.css"
-            ],
-
-            "stylePreprocessorOptions": {
-              "includePaths": [
-                  "src/styles"
-              ]
-            },
-            "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/@popperjs/core/dist/umd/popper.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js",
-=======
               "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss",
               "node_modules/@fortawesome/fontawesome-free/scss/solid.scss",
               "node_modules/@fortawesome/fontawesome-free/scss/regular.scss",
@@ -58,7 +38,6 @@
               "src/styles.scss"
             ],
             "scripts": [
->>>>>>> dev-error
               "node_modules/chart.js/dist/Chart.js",
               "node_modules/hammerjs/hammer.min.js"
             ]
@@ -168,10 +147,6 @@
   },
   "defaultProject": "chatbot",
   "cli": {
-<<<<<<< HEAD
-    "analytics": "d4e47985-6453-4161-ad82-88cfbacb2d2f"
-=======
-    "analytics": "fc0ab48a-6c4d-4591-9816-60e18f087588"
->>>>>>> dev-error
+    "analytics": "c8a7a83e-66c8-4c54-bb0a-50b9da48d695"
   }
 }

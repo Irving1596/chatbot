@@ -5,7 +5,9 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { AppRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
-
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+// Angular Google Maps
+import { AgmCoreModule } from '@agm/core';
 //Modules
 // import { PagesModule } from './pages/pages.module';
 import { HomeComponent } from './home/home.component';
@@ -23,11 +25,14 @@ import { ChatbotComponent } from './chatbot/chatbot.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: ''
+    }),
     // AppRoutingModule,
     // PagesModule,
     // RouterModule,
     //  NgbModule,
-    // MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot()
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
