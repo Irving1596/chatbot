@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 // import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 // import { AppRoutingModule } from './app-routing.module';
-import { APP_ROUTES } from './app.routing';
+import { AppRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 
@@ -22,10 +22,10 @@ import { ChatbotComponent } from './chatbot/chatbot.component';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     // AppRoutingModule,
     // PagesModule,
-    RouterModule,
-    APP_ROUTES,
+    // RouterModule,
     //  NgbModule,
     // MDBBootstrapModule.forRoot()
   ],
