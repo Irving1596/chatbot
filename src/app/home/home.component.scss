@@ -1,6 +1,7 @@
-html,
-body,
-header,
+//body, html { overflow-x:hidden; }
+
+
+
 #intro {
     height: 100%;
 }
@@ -90,16 +91,16 @@ header,
     display: block;
 
   }p {
+    font-size: 15px;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}h2 {
-  font-size: 50px;
+}h2{
+  font-size: 40px;
   margin: 0px;
   color: #222;
-  text-transform: capitalize;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
@@ -107,15 +108,19 @@ header,
 
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 0;
   color: #222;
   text-transform: capitalize;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
+h5{
+font-size: 25px;
+}
 main{
   background: rgb(216, 216, 218);
 }
+
    
  

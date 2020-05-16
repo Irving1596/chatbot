@@ -4,8 +4,8 @@
        <header class="h-100">
           <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar intro-fixed-nav" [containerInside]="false">
               <mdb-navbar-brand>
-                  <a class="navbar-brand" href="#">
-                      <h4><img src="../assets/img/byondit.png" width=100 height=40 alt=""></h4>
+                  <a class="navbar-brand wow fadeOut" data-wow-delay="5.3s" href="#">
+                      <h4><img class="animated bounce infinite" data-wow-delay="4.5s" src="../assets/img/byondit.png" width=100 height=40 alt=""></h4>
       
                   </a>
       
@@ -23,34 +23,35 @@
               </links>
           </mdb-navbar>
           <!-- Main -->
-          
-          <div class="view" >
+          <section class="wow slideInRight" data-wow-offset="10"  data-wow-iteration="10">
+                <div class="view" >
             <div class="full-bg-img" >
                 <div class="mask rgba-black-light flex-center">
                     <div class="container text-center white-text">
-                        <div class="white-text text-center wow fadeInUp">
+                        <div class="white-text text-center">
                             <div class="col-md-2 col-lg-2 col-xl-8 mx-auto mb-4">
-                            <div class="wow fadeInUp" >
+
                             <h2 class="display-4 font-weight-bold white-text pt-5 mb-2" >ByondiT Chatbot</h2>
                             <br>
                             <br>
                             <h5>
-                                Obtén más clientes u ofréceles una mejor atención, a través de un chatbot en tu sitio web o aplicación de mensajería. 
+                                Obtén más clientes o brindales una mejor atención, a través de un chatbot en tu sitio web o aplicación de mensajería. 
                             </h5>
-                        </div>
+                        
                        </div>
                           </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
           <!-- /.Main -->
       </header>
 
 
 
 <router-outlet></router-outlet>
-
 
 
  <!-- Footer -->
@@ -76,7 +77,7 @@
             <!--Second column-->
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 class="text-uppercase font-weight-bold">
-                    <strong>Contáctenos</strong>
+                    <strong>Contacto</strong>
                 </h6>
                 <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 120px;">
                 <p>

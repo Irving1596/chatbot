@@ -1,48 +1,12 @@
 <style>
-  /* html,
-  body,
-  header,
-  .view {
-    height: 100%;
-  }
+    df-messenger {
+      --df-messenger-bot-message: #d3d7e4;
+      --df-messenger-button-titlebar-color: #041f68;
+     --df-messenger-chat-background-color: #d6f4fae7;
+     --df-messenger-user-message: #0dd1a0;
 
-  @media (max-width: 740px) {
-
-    html,
-    body,
-    header,
-    .view {
-      height: 100vh;
     }
-  }
-
-  .top-nav-collapse {
-    background-color: #78909c !important;
-  }
-
-  .navbar:not(.top-nav-collapse) {
-    background: transparent !important;
-  }
-
-  @media (max-width: 991px) {
-    .navbar:not(.top-nav-collapse) {
-      background: #78909c !important;
-    }
-  }
-
-  h1 {
-    letter-spacing: 8px;
-  }
-
-  h5 {
-    letter-spacing: 3px;
-  }
-
-  .hr-light {
-    border-top: 3px solid #fff;
-    width: 80px;
-  } */
-</style>
+  </style>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -53,54 +17,36 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="assets/vendor/chart.js/dist/Chart.min.js"></script>
+<script src="assets/vendor/chart.js/dist/Chart.extension.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel=“stylesheet” type=“text/css” href=“animate.css”>
+
+<link rel=“stylesheet” type=“text/css” href=“https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css”>
 </head>
 
 <body>
   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 
-  <!-- <df-messenger
-  chat-icon="assets/img/icon_chatbot.svg"
-  intent="WELCOME"
-  chat-title="ByondiT_Bot"
-  agent-id="61f3b52b-af86-40ce-9fcb-67fa78ce19c8"
-  language-code="es"
-></df-messenger>
-
-<div class="container">
-  <h2>Alertas Mensajes</h2>
-  <div class="alert alert-success">
-    <strong>Success!</strong> This alert box could indicate a successful or positive action.
-  </div>
-  <div class="alert alert-info">
-    <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
-  </div>
-  <div class="alert alert-warning">
-    <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
-  </div>
-  <div class="alert alert-danger">
-    <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
-  </div>
-</div> -->
-<script src="assets/vendor/chart.js/dist/Chart.min.js"></script>
-<script src="assets/vendor/chart.js/dist/Chart.extension.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAfsy4ONMpWJBkPKq4ui5m8Mu1w2gDiaDU"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
+<script> 
+    wow = new WOW({
+    boxClass: 'wow', // default
+    animateClass: 'animated', // default
+    offset: 0, // default
+    mobile: true, // default
+    live: true // default
+    })
+    wow.init();
+    </script>
   <app-root></app-root>
-  <script> 
-      wow = new WOW({
-      boxClass: 'wow', // default
-      animateClass: 'animated', // default
-      offset: 0, // default
-      mobile: true, // default
-      live: true // default
-      })
-      wow.init();
-      </script>
+
 </body>
 
 </html>
