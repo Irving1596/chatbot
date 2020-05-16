@@ -1,14 +1,20 @@
 .view {
-   background : url("../assets/img/panama.jpg") no-repeat center center fixed ;
+   background : url("../assets/img/panama.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
+    
 }
 
 h2{
-font-size: 55px;
+font-size: 58px;
+text-align: left;
+//font-family:'Times New Roman', Times, serif;
 }
 h5{
-    font-size: 25px;  
+    font-size: 25px; 
+    text-align: left; 
+    font-family:'Times New Roman', Times, serif;
+
 }
 h6{
     font-size: 18px;  
@@ -18,4 +24,6 @@ li{
     position: relative;
     padding-left: 31px;
 }
+
+
 

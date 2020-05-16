@@ -30,4 +30,92 @@ header,
       font-size: 16px
   }
 
+
+  .first_section{
+    background: #0b304e;
+    padding: 40px 0px;
+    line-height: 1.82em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+    color: #ffffff;
+    line-height: 43px;
+    text-align: left;
+    margin: 0px;
+    font-weight: 600;
+
+   }.p{
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
   
+   }
+   .second_section{
+    background: rgb(255, 255, 255);
+    position: relative;
+    //display: block;
+    .padding {
+      padding-top: 90px;
+      padding-bottom: 90px;
+  }container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+      width: 720px;
+      max-width: 100%;
+  }row {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }.col-lg-7{
+    position: relative;
+    width: 100%;
+  }
+  
+  .about_company{
+    line-height: 1.82em;
+    color: #222;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+  }.col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }.pb-30 {
+    padding-bottom: 30px;
+    display: block;
+
+  }p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}h2 {
+  font-size: 50px;
+  margin: 0px;
+  color: #222;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+  }
+
+
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+  color: #222;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+main{
+  background: rgb(216, 216, 218);
+}
+   
+ 
