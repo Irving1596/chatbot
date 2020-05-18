@@ -9,19 +9,25 @@
 
 
 h2{
+    width: 100%;
 font-size: 58px;
 text-align: left;
-//font-family:'Times New Roman', Times, serif;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 h5{
-    font-size: 28px; 
+    width: 100%;
+    font-size: 29px;
     text-align: left; 
     font-family:'Times New Roman', Times, serif;
-
+    width: 720px;
+    max-width: 100%;
 }
+
 h6{
     font-size: 20px;
 }
+
 
 li{
     font-size: 17px;
