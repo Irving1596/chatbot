@@ -1,0 +1,32 @@
+.view {
+    background : url("../../../assets/img/panama.jpg") no-repeat center center fixed;
+     background-size: cover;
+     height: 100vh;
+     
+ }
+
+ h2{
+    width: 100%;
+font-size: 58px;
+text-align: left;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h5{
+    width: 100%;
+    font-size: 29px;
+    text-align: left; 
+    font-family:'Times New Roman', Times, serif;
+    width: 720px;
+    max-width: 100%;
+}
+
+li{
+    font-size: 17px;
+    position: relative;
+    padding-left: 31px;
+}
+
+
+ //body, html { overflow-x:hidden; }
+ 

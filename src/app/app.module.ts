@@ -15,6 +15,8 @@ import { AgmCoreModule } from '@agm/core';
 import { HomeComponent } from './home/home.component';
 import { PreviewComponent } from './preview/preview.component';
 import { ChatbotComponent } from './chatbot/chatbot.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
  
 
 @NgModule({
@@ -23,6 +25,8 @@ import { ChatbotComponent } from './chatbot/chatbot.component';
     HomeComponent,
     PreviewComponent,
     ChatbotComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
